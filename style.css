@@ -1,0 +1,29 @@
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+    font-family: "Americana Std Roman";
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    border: 1;
+    border-color: #fff;
+    border-radius: 0px;
+}
+
+#clickCounter {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
